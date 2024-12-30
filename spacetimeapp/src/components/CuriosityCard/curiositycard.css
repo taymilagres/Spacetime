@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+
+
+.carousel{
+    width: 90vw;
+    padding-bottom: 10%;
+    margin: auto;
+    padding-top: 4%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.carousel-items {
+    display: flex;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in-out;
+    gap: 20px;
+
+  }
+  
+
+.item{
+    background-color: #082B59;
+    width: 25.6vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: opacity 0.3s ease;
+    box-sizing: border-box;
+
+}
+
+.carousel .item:nth-child(n+5) {
+    display: none;
+}
+
+.universe-img{
+    width: 25.6vw;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.info{
+    width: 90%;
+    text-align: justify;
+    padding-left: 15px;
+    padding-bottom: 4%;
+}
+
+.info h4{
+    color: #A44514;
+    font-family: 'REM';
+    font-size: 1.4vw;
+}
+
+.info-item{
+    color: #FFFFFF;
+    font-family: 'REM';
+    font-size: 0.9vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow-img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding-top: 220px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.item.hidden {
+    opacity: 0; 
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+
+#root {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #012340;
+  overflow-x: hidden;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Righteous';
+  color: #8985F2;
+  font-size: 2.1vw;
+}
+
+hr{
+  border: solid 1px #A44514 ;
+  width: 20%;
+  margin-top: -1.6%;
+}

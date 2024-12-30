@@ -1,0 +1,29 @@
+.slipdown-img{
+    width: 100vw;
+    height: 30vh;
+    box-shadow:0px 24px 39px -9px rgba(1, 4, 39, 0.75);
+    
+}
+
+.slipdown{
+    margin-top: -1.2%;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rounded-circle{
+    background-color: #012340;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center ;
+    margin-top: -28px;
+}
+
+.arrowdown-img{
+    width: 40px;
+    padding: 8px;
+    
+}
